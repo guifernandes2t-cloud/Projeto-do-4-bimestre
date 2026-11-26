@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.trilho {
+  width: 100%;
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.preenchimento {
+  height: 100%;
+  background: #ea580c;
+  transition: width 0.3s ease;
+}

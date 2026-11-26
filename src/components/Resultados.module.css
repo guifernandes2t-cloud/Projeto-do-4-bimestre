@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.media {
+  font-size: 1.25rem;
+}
+
+.listaComentarios {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comentario {
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #ea580c;
+}
+
+.vazio {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.erro {
+  color: #991b1b;
+}
